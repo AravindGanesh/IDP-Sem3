@@ -1,6 +1,6 @@
 % A short introductory script for Basic current and voltage calculations
 
-
+fig1=figure
  %*****Charging the capacitor bank******** 
 capcitance=1e-3
 Voltage=100
@@ -43,19 +43,19 @@ Force=rail_current*B_coil*projectile_length;
 
 B_rails = 0 %measured in lab, is rather negligible
 subplot(2,1,1);
-plot(t,Force)
+plot(t(1:100),Force(1:100))
 title('Force vs time')
 
 
 
 subplot(2,1,2)
-plot(t,rail_current)
+plot(t(1:100),rail_current(1:100))
 title('Rail current vs time')
 
 Energy_stored=0.5*eff_capacitance*(Voltage)^2
 
 
-
+print(fig1,'plots','-dpng')
 
 
 
