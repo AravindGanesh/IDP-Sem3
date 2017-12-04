@@ -187,7 +187,9 @@ We ran calculations using a matlab script and plotted the force on the projetile
 
 
 
-\section{Components}
+
+\section{Architecture}
+\subsection*{Components}
 \begin{itemize}
 \item Capacitors - $2.2mF$  (as power source for the rails)
 \item Variable Auto-Transformer 
@@ -195,11 +197,14 @@ We ran calculations using a matlab script and plotted the force on the projetile
 \item Power MOSFET - IR740 (for switching)
 \item Strong Neodymium Magnets
 \item High power resistors
-\item 
 \item Steel scales as rails
+\item Graphite rod (as projectile)
 \end{itemize}
+\subsection*{Structure Description}
+\hspace{10mm} The steel scales serve as rails. The graphite rod is chosen as projectile as it is conducting but not ferromagnetic. If we use a projectile made of ferromagnetic material, it will get attracted back by the strong magnetic field. The permanent magnets provide strong magnetic field perpendicular to the plane of the rails. The capacitors are charged with the DC output of the rectifier with input from the variable auto-transformer. The charged capacitor provides high amounts of instantaneous current when connected to the rails. Current flows through the graphite rod (projectile) and it moves and it experiences a force according to the principle in equation (1).
 
-\subsection*{Testing the Prototype}
+\section{Testing the Prototype}
+
 
 
 

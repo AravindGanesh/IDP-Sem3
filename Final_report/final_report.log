@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  4 DEC 2017 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  4 DEC 2017 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,7 +601,7 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 119.
-<railgun_physics.png, id=33, 516.0078pt x 232.7094pt>
+<railgun_physics.png, id=37, 516.0078pt x 232.7094pt>
 File: railgun_physics.png Graphic file (type png)
 
 <use railgun_physics.png>
@@ -618,13 +618,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-<Circuit.png, id=52, 1309.89375pt x 663.47874pt>
+<Circuit.png, id=56, 1309.89375pt x 663.47874pt>
 File: Circuit.png Graphic file (type png)
  <use Circuit.png>
 Package pdftex.def Info: Circuit.png used on input line 169.
 (pdftex.def)             Requested size: 205.0023pt x 103.83028pt.
 
-<charging.jpg, id=53, 1602.98875pt x 909.3975pt>
+<charging.jpg, id=57, 1602.98875pt x 909.3975pt>
 File: charging.jpg Graphic file (type jpg)
  <use charging.jpg>
 Package pdftex.def Info: charging.jpg used on input line 175.
@@ -633,7 +633,7 @@ Package pdftex.def Info: charging.jpg used on input line 175.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<plots.png, id=54, 578.16pt x 433.62pt>
+<plots.png, id=58, 578.16pt x 433.62pt>
 File: plots.png Graphic file (type png)
  <use plots.png>
 Package pdftex.def Info: plots.png used on input line 183.
@@ -659,30 +659,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
  []
 
 [2 <./Circuit.png> <./charging.jpg> <./plots.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
  [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./final_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `final_report.out' has not changed.
-(rerunfilecheck)             Checksum: FD8DD3F6EABAD39C81892E59D92319C7;283.
+(rerunfilecheck)             Checksum: BE2EEDA1A46B8F2D0903974EC10790A5;341.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 11242 strings out of 493029
- 172747 string characters out of 6136234
- 314333 words of memory out of 5000000
- 14438 multiletter control sequences out of 15000+600000
- 54855 words of font info for 178 fonts, out of 8000000 for 9000
+ 11260 strings out of 493029
+ 172899 string characters out of 6136234
+ 313333 words of memory out of 5000000
+ 14439 multiletter control sequences out of 15000+600000
+ 55747 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,344b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,698b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
@@ -691,10 +691,10 @@ type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on final_report.pdf (3 pages, 289980 bytes).
+Output written on final_report.pdf (3 pages, 290845 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 45125 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 45133 words of extra memory for PDF output out of 51595 (max. 10000000)
 
