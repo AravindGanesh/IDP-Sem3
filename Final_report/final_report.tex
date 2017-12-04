@@ -84,8 +84,7 @@
 
 \begin{abstract}
 
-	A railgun is a device that uses electromagnetic force to launch high velocity projectiles, by means of a sliding armature that is accelerated along a pair of conductive rails. Railguns rely on electromagnetic force to propel a projectile at very high velocities(more than $3 km/s$).
-
+In this project, we have designed a prototype of a railgun. As this project is only for educational purposes, we have limited ourselves to low power levels of around 100V and 10 Amperes. We hope this project serves as a proof of concept. This prototype can be further developed and deployed in a multitude of applications.  
 
 \end{abstract}
 ]
@@ -126,22 +125,14 @@ The magnetic force on a current carrying conductor can be modelled by the equati
 
 Where $F$ is force, $B$ is magnetic field and $I_{r}$ is current passing through the rails.
 
-We notice that the direction of force is always outward as shown in $figure 1$, regardless of whether the power supply is AC or DC.
+As we are using permanent magnets to supply an external magnetic field, we restrict our power supply to DC only.
  
-	We apply the magnetic field as seen in Figure 1 using a current carrying coil. The magnetic field intensity of a current carrying coil with $N$ turns is given by the equation
+	We apply the magnetic field as seen in Figure 1 using strong permanent magnets. The magnetic field intensity of a magnet is given by $\vec{B}$
 	
-\begin{equation}
-B=\frac{\mu_{0} N I_{c}}{2 r}
-\end{equation}
 
-Where $r$ is the radius of the coil, $B$ is magnetic field intensity and $I_{c}$ is current passing through the coil.
+As the magnetic field is perpendicular to the current carrying projectile, $Eq(1)$ simplifies to
+ \[|\vec{F}|=I_{r} l|\vec{B}|\]
 
-As the magnetic field is perpendicular to the current carrying projectile, $Eq(1)$ simplifies to $F=I_{r} lB$.
-Substituting equation 2 into 1, we get 
-
-\begin{equation}
-F=\frac{\mu_{0} N l I_{c} I_{r}}{2 r}
-\end{equation}
 
 
  
