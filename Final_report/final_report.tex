@@ -1,4 +1,4 @@
-\documentclass[twoside,twocolumn]{article}
+\documentclass[twocolumn]{article}
 
 \usepackage{blindtext} % Package to generate dummy text throughout this template 
 \usepackage{flafter} 
@@ -184,41 +184,23 @@ We ran calculations using a matlab script and plotted the force on the projetile
 \end{figure}
 		The script and all other code used in this project can be found in the project github repository.
 \href{https://github.com/AravindGanesh/IDP-Sem3}{\textbf{https://github.com/AravindGanesh/IDP-Sem3}}
-\subsection*{\textbf{Parameters}}
-
-The following are the parameters in our matlab program  to be used in our circuit with self explanatory names. 
-
-\begin{lstlisting}[frame=single]
-capcitance =  0.0010000
-Voltage =  100
-n_capacitors =  10
-capacitor_rating =  100
-Series_resistance =  1000
-projectile_length =  0.020000
-external_resistance =  1
-mass =  0.010000
-mu0 =    1.2566e-06
-radius =  0.030000
-turns =  200
-coil_current =  5
-B_coil =  0.020944
-eff_capacitance =  0.010000
-charging_Time_constant =  10
-discharging_Time_constant =  0.010000
-B_rails = 0
-Energy_stored =  50
-\end{lstlisting}
 
 
 
+\section{Components}
+\begin{itemize}
+\item Capacitors - $2.2mF$  (as power source for the rails)
+\item Variable Auto-Transformer 
+\item Fullwave bridge Rectifier (uncontrolled)
+\item Power MOSFET - IR740 (for switching)
+\item Strong Neodymium Magnets
+\item High power resistors
+\item 
+\item Steel scales as rails
+\end{itemize}
 
 \subsection*{Testing the Prototype}
-We went to power electronics lab,
-charged capacitors(2.2mF, 25V) using charging circuit which was available in lab itself and tested the prototype.
 
-As we used low valued capacitors, it couldn't supply enough voltage and hence it couldn't generate enough force to move the projectile.
-
-So, now we are planning to make charging circuit according to our calculation.
 
 
 
