@@ -1,0 +1,237 @@
+\documentclass[twoside,twocolumn]{article}
+
+\usepackage{blindtext} % Package to generate dummy text throughout this template 
+\usepackage{flafter} 
+\usepackage{graphicx}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\input{arduinoLanguage.tex}
+
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+
+\usepackage{enumitem} % Customized lists
+\setlist[itemize]{noitemsep} % Make itemize lists more compact
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Electromagnetic Railgun $\bullet$ 1 November 2017} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{titling} % Customizing the title section
+
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\setlength{\droptitle}{-4\baselineskip} % Move the title up
+
+\pretitle{\begin{center}\Huge\bfseries} % Article title formatting
+\posttitle{\end{center}} % Article title closing formatting
+\title{Electromagnetic Railgun} % Article title
+\author{%
+\textsc{Aravind Ganesh}\\[1ex] % Your name
+%\normalsize IITH \\ % Your institution
+\normalsize \href{mailto:ee16tech11026@iith.ac.in}{ee16tech11026@iith.ac.in}
+ % Your email address
+\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
+\textsc{\textbf{Siva Kumar}}\\
+ Project advisor\\
+\normalsize \href{mailto:ksiva@iith.ac.in}{ksiva@iith.ac.in} % Second author's email address
+\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
+\textsc{Adithya Hosapate}\\[1ex] % Second author's name
+%\normalsize IITH \\ % Second author's institution
+\normalsize \href{mailto:ee16btech11040@iith.ac.in}{ee16btech11040@iith.ac.in} % Second author's email address
+\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
+\textsc{Anand N Warrier}\\[1ex] % Second author's name
+%\normalsize IITH \\ % Second author's institution
+\normalsize \href{mailto:ee16btech11042@iith.ac.in}{ee16btech11042@iith.ac.in} % Second author's email address
+\and
+\textsc{Deep Diwani}\\[1ex] % Your name
+%\normalsize IITH \\ % Your institution
+\normalsize \href{mailto:ee16tech11006@iith.ac.in}{ee16tech11006@iith.ac.in}
+}
+
+\date{\today} % Leave empty to omit a date
+\renewcommand{\maketitlehookd}{%
+
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% Print the title
+\twocolumn[
+\maketitle
+
+\begin{abstract}
+
+	A railgun is a device that uses electromagnetic force to launch high velocity projectiles, by means of a sliding armature that is accelerated along a pair of conductive rails. Railguns rely on electromagnetic force to propel a projectile at very high velocities(more than $3 km/s$).
+
+
+\end{abstract}
+]
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+
+\section{Introduction}
+
+	A railgun is a device that uses electromagnetic force to launch high velocity projectiles, by means of a sliding armature that is accelerated along a pair of conductive rails. Railguns rely on electromagnetic force to propel a projectile at very high velocities(more than $3 km/s$).
+
+
+\section{Potential Applications}
+\begin{itemize}
+
+\item Railguns are being researched as weapons that would use neither explosives nor propellant.The absence of explosive propellants or warheads to store and handle conventional weaponry come as additional advantages.
+
+\item In addition to military applications, NASA has proposed to use a railgun to launch wedge-shaped aircraft with scramjets to high-altitude at Mach 10, where they will then fire a small payload into orbit using conventional rocket propulsion.
+
+\item Railguns can potentially be used to aid mining, as a substitute for dynamite for clearing tunnels. 
+
+\end{itemize}
+
+
+\section{Principle}
+
+The magnetic force on a current carrying conductor can be modelled by the equation. 
+	
+\begin{figure}[htp]
+	\caption{Working principle of railgun}
+	\includegraphics[width=\linewidth]{railgun_physics.png}
+\end{figure}
+	
+\begin{equation}
+\vec{F}=I_{r} \vec{l} \times \vec{B}
+\end{equation}
+
+Where $F$ is force, $B$ is magnetic field and $I_{r}$ is current passing through the rails.
+
+We notice that the direction of force is always outward as shown in $figure 1$, regardless of whether the power supply is AC or DC.
+ 
+	We apply the magnetic field as seen in Figure 1 using a current carrying coil. The magnetic field intensity of a current carrying coil with $N$ turns is given by the equation
+	
+\begin{equation}
+B=\frac{\mu_{0} N I_{c}}{2 r}
+\end{equation}
+
+Where $r$ is the radius of the coil, $B$ is magnetic field intensity and $I_{c}$ is current passing through the coil.
+
+As the magnetic field is perpendicular to the current carrying projectile, $Eq(1)$ simplifies to $F=I_{r} lB$.
+Substituting equation 2 into 1, we get 
+
+\begin{equation}
+F=\frac{\mu_{0} N l I_{c} I_{r}}{2 r}
+\end{equation}
+
+
+ 
+
+\section{Approach}
+We began by deciding the architecture of our gun.
+After brainstorming many different setups, we settled on 
+
+\begin{itemize}
+\item A set of 2 parallel rails
+\item A cylindrical graphite rod, which is conducting yet non-ferromagnetic.
+\item Strong Permanent magnets to generate an external magnetic field
+\item A capacitor bank in order to deliver high currents in a short amount of time to the rails.
+\end{itemize}
+\subsection*{\textbf{Current progress}} 
+We began by designing the Capacitor bank charging circuit, using simulink (A MATLAB simulation software).
+
+A detailed schematic of the circuit can be found below in Figure 1.
+	\\
+	
+Figure 2 shows the voltage vs time plot of the charging capacitors.
+	
+\begin{figure}[htp]
+	\caption{Circuit Diagram of simulated charging circuit}
+	\includegraphics[width=\linewidth]{Circuit.png}
+\end{figure}
+	
+	
+\begin{figure}[h]
+	\caption{Plot of voltage across capcitor bank vs time }
+	\includegraphics[width=\linewidth]{charging.jpg}
+\end{figure}
+		
+	
+We ran calculations using a matlab script and plotted the force on the projetile vs time along with the rail current vs time.(Figure 3)
+
+\begin{figure}[h]
+	\caption{Plots of rail current vs time and force vs time}
+	\includegraphics[width=\linewidth]{plots.png}
+\end{figure}
+		The script and all other code used in this project can be found in the project github repository.
+\href{https://github.com/AravindGanesh/IDP-Sem3}{\textbf{https://github.com/AravindGanesh/IDP-Sem3}}
+\subsection*{\textbf{Parameters}}
+
+The following are the parameters in our matlab program  to be used in our circuit with self explanatory names. 
+
+\begin{lstlisting}[frame=single]
+capcitance =  0.0010000
+Voltage =  100
+n_capacitors =  10
+capacitor_rating =  100
+Series_resistance =  1000
+projectile_length =  0.020000
+external_resistance =  1
+mass =  0.010000
+mu0 =    1.2566e-06
+radius =  0.030000
+turns =  200
+coil_current =  5
+B_coil =  0.020944
+eff_capacitance =  0.010000
+charging_Time_constant =  10
+discharging_Time_constant =  0.010000
+B_rails = 0
+Energy_stored =  50
+\end{lstlisting}
+
+
+
+
+\subsection*{Testing the Prototype}
+We went to power electronics lab,
+charged capacitors(2.2mF, 25V) using charging circuit which was available in lab itself and tested the prototype.
+
+As we used low valued capacitors, it couldn't supply enough voltage and hence it couldn't generate enough force to move the projectile.
+
+So, now we are planning to make charging circuit according to our calculation.
+
+
+
+
+\section{Bibliography} 
+\begin{itemize}
+\item https://www.allaboutcircuits.com.
+
+\item electronics-course.com/ripple-counter.
+
+\item https://www.eecs.tufts.edu/~dsculley/tutorial
+
+\end{itemize}
+%----------------------------------------------------------------------------------------
+
+\end{document}
