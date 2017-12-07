@@ -138,9 +138,8 @@ As the magnetic field is perpendicular to the current carrying projectile, $Eq(1
  
 
 \section{Approach}
-We began by deciding the architecture of our gun.
 
-\subsection*{\textbf{Current progress}} 
+\subsection*{\textbf{Simulation}} 
 We began by designing the Capacitor bank charging circuit, using simulink (A MATLAB simulation software).
 
 A detailed schematic of the circuit can be found below in Figure 1.
@@ -185,22 +184,48 @@ We ran calculations using a matlab script and plotted the force on the projetile
 \item Graphite rod (as projectile)
 \end{itemize}
 \subsection*{Structure Description}
-\hspace{10mm} The steel scales serve as rails. The graphite rod is chosen as projectile as it is conducting but not ferromagnetic. If we use a projectile made of ferromagnetic material, it will get attracted back by the strong magnetic field. The permanent magnets provide strong magnetic field perpendicular to the plane of the rails. The capacitors are charged with the DC output of the rectifier with input from the variable auto-transformer. The charged capacitor provides high amounts of instantaneous current when connected to the rails. Current flows through the graphite rod (projectile) and it moves and it experiences a force according to the principle in equation (1).
+\hspace{10mm}The steel scales serve as rails. The graphite rod is chosen as projectile as it is conducting but not ferromagnetic. If we use a projectile made of ferromagnetic material, it will experience a strong downward force the strong magnetic field.This will, in turn, increase the normal reaction. Frictional force is given by $f=\mu{}N$ which clearly increases as Normal reaction increases. \\
+The permanent magnets provide strong magnetic field perpendicular to the plane of the rails. \\
+The capacitors are charged with the DC output of the rectifier with input from the variable auto-transformer. \\ 
+The charged capacitor provides instantaneous current of the order 10 Amperes. \\
+Current flows through the graphite rod (projectile) and it moves under the effect of Lorentz force according to equation (1).\\
+Magnets were placed at the end of the rails to prevent backward attraction as current ceases to flow through the projectile.
 
-\section{Testing the Prototype}
+\section{Circuit Description}
+
+\begin{figure}[htp]
+	\caption{Schematic of the charging circuit}
+	\includegraphics[width=\linewidth]{cktdiagram.png}
+\end{figure}
 
 
-
-
-
-
-\section{Bibliography} 
 \begin{itemize}
-\item 
+\item The Turns Ratio of transformer T1 is adjusted such that Output Voltage is $130V$ rms.
+\item The capacitors have a maximum rating of $200V$
+\item The Diodes D1,D2,D3,D4 have reverse breakdown voltage of $170V$
+\item To limit the current through the $200\Omega$ resistor while charging, the turns ratio is slowly increased from 0 to its required value
+\item $20\Omega$ resistor is used to avoid instantaneous discharging of capacitor and also limiting current through the projectile
 
-\item 
+\end{itemize}
 
-\item
+\section{Results}
+\begin{figure}[htp]
+	\caption{Setup of railgun prototype}
+	\includegraphics[width=\linewidth]{crcktimage.jpeg}
+\end{figure}
+
+After numerous tests, we were able to propel the graphite projectile forward to a distance of about 15 cm. The video of the working railgun can be found in our github repository.
+
+
+\section{References} 
+\begin{itemize}
+\item http://web.mit.edu/mouser/www/railgun/physics.html
+
+\item https://en.wikipedia.org/wiki/Railgun
+
+\item https://www.princeton.edu/~romalis/PHYS210/railgun/railgun.html
+
+\item www.calvin.edu/\~pribeiro/courses/engr302/Samples/Railgun\\\%20Paper.doc
 
 \end{itemize}
 %----------------------------------------------------------------------------------------

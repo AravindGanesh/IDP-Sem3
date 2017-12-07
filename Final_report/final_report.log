@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.12)  4 DEC 2017 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.12)  7 DEC 2017 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,7 +422,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip64
 )
-No file final_report.aux.
+(./final_report.aux)
 \openout1 = `final_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -440,10 +440,9 @@ LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Try loading font information for T1+pplx on input line 79.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
-)
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count140
 \scratchdimen=\dimen165
@@ -539,6 +538,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 79.
 LaTeX Info: Redefining \pageref on input line 79.
 LaTeX Info: Redefining \nameref on input line 79.
+
+(./final_report.out) (./final_report.out)
 \@outlinefile=\write3
 \openout3 = `final_report.out'.
 
@@ -600,9 +601,10 @@ LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 118.
-<railgun_physics.png, id=9, 516.0078pt x 232.7094pt>
+<railgun_physics.png, id=41, 516.0078pt x 232.7094pt>
 File: railgun_physics.png Graphic file (type png)
- <use railgun_physics.png>
+
+<use railgun_physics.png>
 Package pdftex.def Info: railgun_physics.png used on input line 119.
 (pdftex.def)             Requested size: 205.0023pt x 92.45004pt.
 
@@ -612,89 +614,117 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./railgun_physics.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
-<Circuit.png, id=29, 1309.89375pt x 663.47874pt>
+<Circuit.png, id=58, 1309.89375pt x 663.47874pt>
 File: Circuit.png Graphic file (type png)
  <use Circuit.png>
-Package pdftex.def Info: Circuit.png used on input line 160.
+Package pdftex.def Info: Circuit.png used on input line 152.
 (pdftex.def)             Requested size: 205.0023pt x 103.83028pt.
 
-<charging.jpg, id=30, 1602.98875pt x 909.3975pt>
+<charging.jpg, id=59, 1602.98875pt x 909.3975pt>
 File: charging.jpg Graphic file (type jpg)
  <use charging.jpg>
-Package pdftex.def Info: charging.jpg used on input line 166.
+Package pdftex.def Info: charging.jpg used on input line 158.
 (pdftex.def)             Requested size: 205.0023pt x 116.29701pt.
 
-<plots.png, id=31, 578.16pt x 433.62pt>
+<plots.png, id=60, 578.16pt x 433.62pt>
 File: plots.png Graphic file (type png)
  <use plots.png>
-Package pdftex.def Info: plots.png used on input line 174.
+Package pdftex.def Info: plots.png used on input line 166.
 (pdftex.def)             Requested size: 205.0023pt x 153.7476pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 []\T1/pplx/m/n/10 (+20) The script and all other code
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 \T1/pplx/m/n/10 (+20) used in this project can be found
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 \T1/pplx/m/n/10 (+20) in the project github repos-i-tory.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 []\T1/pplx/b/n/10 https://github.com/AravindGanesh/IDP-
  []
 
-[2 <./Circuit.png> <./charging.jpg> <./plots.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
- [3
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Underfull \vbox (badness 6204) has occurred while \output is active []
+
+ [2 <./Circuit.png> <./charging.jpg> <./plots.png>]
+<cktdiagram.png, id=71, 606.265pt x 188.705pt>
+File: cktdiagram.png Graphic file (type png)
+ <use cktdiagram.png>
+Package pdftex.def Info: cktdiagram.png used on input line 198.
+(pdftex.def)             Requested size: 205.0023pt x 63.80756pt.
+
+<crcktimage.jpeg, id=72, 1043.9pt x 587.19376pt>
+File: crcktimage.jpeg Graphic file (type jpg)
+ <use crcktimage.jpeg>
+Package pdftex.def Info: crcktimage.jpeg used on input line 214.
+(pdftex.def)             Requested size: 205.0023pt x 115.31319pt.
+
+Overfull \hbox (69.2208pt too wide) in paragraph at lines 222--223
+[]\T1/pplx/m/n/10 (-20) http://web.mit.edu/mouser/www/railgun/physics.html 
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 226--227
+[]\T1/pplx/m/n/10 (+20) https://www.princeton.edu/ ro-ma-l-is/-
+ []
+
+
+Overfull \hbox (88.09354pt too wide) in paragraph at lines 228--229
+[]\T1/pplx/m/n/10 (-20) www.calvin.edu/[]pribeiro/courses/engr302/Samples/Railg
+un 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+[3 <./cktdiagram.png> <./crcktimage.jpeg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./final_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package rerunfilecheck Info: File `final_report.out' has not changed.
+(rerunfilecheck)             Checksum: E69C4D6F495594C75750A9D2AFA3D033;379.
 
-
-Package rerunfilecheck Warning: File `final_report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `final_report.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BE2EEDA1A46B8F2D0903974EC10790A5;341.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 11221 strings out of 494910
- 172402 string characters out of 6179835
- 308540 words of memory out of 5000000
- 14173 multiletter control sequences out of 15000+600000
- 51930 words of font info for 178 fonts, out of 8000000 for 9000
+ 11257 strings out of 494910
+ 172888 string characters out of 6179835
+ 308644 words of memory out of 5000000
+ 14195 multiletter control sequences out of 15000+600000
+ 52028 words of font info for 180 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,11n,43p,698b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,419b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on final_report.pdf (3 pages, 286749 bytes).
+type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fp
+lrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on final_report.pdf (3 pages, 373173 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 39957 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 118 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 40031 words of extra memory for PDF output out of 42996 (max. 10000000)
 
